@@ -9,7 +9,18 @@ This Jupyter notebook demonstrates how to interact with Large Language Models (L
   ```
   openai
   python-dotenv
+  langchain
+  langchain-openai
+  langchain-community
+  langchain-core
   ```
+
+To install your packages, run the following command:
+
+```
+pip install requirements.txt -r
+```
+
 
 ## Setup and Configuration
 
@@ -60,23 +71,6 @@ Each section of the notebook can be run sequentially to:
 4. Inspect responses
 5. Run an interactive chat session
 
-## Interactive Chat Features
-
-The interactive chat implementation includes:
-- System message setup
-- User input handling
-- Response processing
-- Conversation history management
-- Exit commands ("exit" or "quit")
-
-## Response Analysis
-
-The notebook demonstrates how to:
-- Access response content
-- Convert responses to JSON
-- Pretty print response structures
-- Extract specific fields from responses
-
 ## Security Notes
 
 - API keys and endpoints should be stored in a `.env` file
@@ -87,5 +81,6 @@ The notebook demonstrates how to:
 ## Additional Resources
 
 - [Azure OpenAI Quickstart Guide](https://learn.microsoft.com/en-us/azure/ai-services/openai/gpt-v-quickstart?tabs=command-line%2Ckeyless%2Ctypescript-keyless&pivots=programming-language-python)
-- Azure Portal documentation for key management
-- OpenAI API documentation
+- [OpenAI API documentation](https://platform.openai.com/docs/overview)
+- [Getting Started with LangChain](https://python.langchain.com/docs/introduction/)
+- [ReAct Agent with LangChain](https://python.langchain.com/docs/tutorials/agents/)
