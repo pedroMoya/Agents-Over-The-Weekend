@@ -28,7 +28,7 @@ st.set_page_config(
 # Load environment variables from .env file
 from pathlib import Path
 
-env_path = r"C:\Users\vaalt\OneDrive\Desktop\Projects\Eventi speaker\Packt Bootcamp\code\Day 2\.env"
+env_path = r"C:\Users\vaalt\OneDrive\Desktop\Projects\Eventi speaker\Packt Bootcamp\code\.env"
 load_dotenv(dotenv_path=env_path, override=True)
 
 # Access the environment variables
